@@ -1,4 +1,4 @@
-package java.dev.coder.HelloWorldApp;
+package dev.coder.TodoApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
