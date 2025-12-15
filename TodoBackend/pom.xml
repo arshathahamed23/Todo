@@ -18,7 +18,7 @@
 	<name>HelloWorldApp</name>
 
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 
 	<dependencies>
@@ -104,13 +104,14 @@
 			</plugin>
 
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
+    			<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.11.0</version>
 				<configuration>
-					<release>21</release>
-				</configuration>
+        			<release>17</release>
+    			</configuration>
 			</plugin>
+
 
 		</plugins>
 	</build>
