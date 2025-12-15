@@ -27,7 +27,6 @@ public class JwtFilter extends OncePerRequestFilter {
             FilterChain filterChain
     ) throws ServletException, IOException {
 
-        // 🔥 IMPORTANT: allow auth endpoints WITHOUT JWT
         String path = request.getServletPath();
         if (path.startsWith("/auth")) {
             filterChain.doFilter(request, response);

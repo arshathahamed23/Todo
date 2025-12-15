@@ -61,7 +61,7 @@ function createTodoCard(todo) {
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.checked = todo.isCompleted;
-  checkbox.addEventListener("chane", function () {
+  checkbox.addEventListener("change", function () {
     const updatedTodo = { ...todo, isCompleted: checkbox.checked };
     updateTodoStatus(updatedTodo);
   });
