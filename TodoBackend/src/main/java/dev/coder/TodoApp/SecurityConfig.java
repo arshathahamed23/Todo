@@ -39,7 +39,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("https://your-frontend-name.netlify.app")
+                List.of("https://todo-spring-app.netlify.app")
         );
 
         configuration.setAllowedMethods(
